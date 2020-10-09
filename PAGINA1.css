@@ -1,0 +1,110 @@
+
+*{scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+.imagen{ background-image: url("https://cdn.cutypaste.com/wp-content/uploads/2015/08/white-forever21-eyelet-crochet-top-screen.jpg");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #676967 ;
+    height: 70px;
+    align-items: center;
+    color: rgb(247, 243, 243);
+
+}
+.nav-item li{
+    display: inline-block;
+    margin-right: 5px;
+
+
+}
+.nav-item li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.nav-item li a:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+
+
+
+}
+h3{
+    margin-left: 500px;
+}
+.nav-item{
+    margin-right:500 px;
+}
+.texto-principal{
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    align-self: center;
+
+}
+.texto-principal h1{
+    color: #000000;
+    font-size: 30 px;
+    font-weight: 900;
+
+
+}
+.divicion{
+    height: 100px;
+    width: 100%;
+    background-color: #646466;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.divicion h3{
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+
+}
+.prendas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-auto-rows: 500px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.prendas img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
